@@ -5,45 +5,72 @@ Analyze and visualize PhonePe Pulse data to uncover trends in transactions, user
 
 ## 🧠 Project Overview
 
-PhonePe is India’s leading digital payments platform. This project extracts, transforms, and visualizes data from the official PhonePe Pulse GitHub Repository
- to deliver meaningful insights into:
+A complete data engineering and analytics project built using Python, MySQL, and Streamlit, inspired by real-world PhonePe transaction and insurance datasets.
+This project visualizes transaction insights, device usage trends, and insurance coverage patterns across Indian states and districts through interactive dashboards and heatmaps.
 
-###📈 Transaction dynamics across states & districts
+### 📈 Transaction dynamics across states & districts
 
-###👥 User growth and engagement
+### 👥 User growth and engagement
 
-###💼 Insurance adoption & regional patterns
+### 💼 Insurance adoption & regional patterns
 
-###🗺️ Interactive geo-visualizations with maps and graphs
+### 🗺️ Interactive geo-visualizations with maps and graphs
 
 ---
 
 
 ## 🚀 Features
 
-✅ Interactive Streamlit Dashboard<br>
-✅ Choropleth State & District Maps<br>
-✅ Top-performing and emerging regions identification<br>
-✅ Custom filters by year, quarter, and category<br>
-✅ Dynamic case studies to analyze business insights<br>
+ETL Pipeline (DataETL.py)
+Extracts, transforms, and loads raw data into a MySQL database.
 
-🗂️ Project Structure
-📦 phonepe_visualization_project
- ┣ 📜 README.md<br>
- ┣ 📜 streamlitpage.py       ← Streamlit Dashboard App<br>
- ┣ 📜 phonepe.ipynb          ← Data Exploration & Cleaning Notebook<br>
- ┣ 📁 data/                  ← Processed & Raw Data Files<br>
- ┗ 📁 assets/                ← Images, logos, etc.<br>
+Dynamic Dashboards (MainPage.py)
+Central Streamlit interface connecting all insights in a seamless user experience.
 
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/yourusername/phonepe_visualization_project.git
-cd phonepe_visualization_project
+Transaction Analysis (show_transaction_analysis.py)
+Visualizes trends, transaction volume, and growth across states and years.
 
-2️⃣ Install Dependencies
-pip install -r requirements.txt
+Transaction Dynamics (show_transaction_dynamics.py)
+Displays evolving transaction patterns and types over time.
 
-3️⃣ Run the Streamlit App
-streamlit run streamlitpage.py
+Device Insights (device_insights.py)
+Analyzes transaction data across various device types.
 
-💡 Data Source
+Insurance Analytics (insurance_insight.py)
+Highlights insurance trends and patterns by state and district.
+
+Geospatial Heatmap (Heatmap.py)
+Interactive choropleth map showing transaction or insurance intensity across Indian states using GeoJSON data.
+
+Utilities (utils/)
+Helper functions and reusable components such as database connectors, formatting utilities, and shared logic.
+
+### 🗂️ Folder Structure
+
+Phonepay/
+│
+├── Data/                         # Data files (raw or processed)
+├── utils/                        # Helper scripts and utility functions
+├── .streamlit/                   # Streamlit configuration files
+├── Cloning.py                    # Optional data cloning or backup logic
+├── DataETL.py                    # ETL pipeline for database population
+├── device_insights.py            # Device-level analysis
+├── file_generator.py             # File creation/export utilities
+├── Heatmap.py                    # Choropleth heatmap visualization
+├── insurance_insight.py          # Insurance analysis dashboard
+├── MainPage.py                   # Main Streamlit entry point
+├── show_transaction_analysis.py  # Transaction analytics dashboard
+├── show_transaction_dynamics.py  # Time-based transaction trends
+├── sql_connection.py             # MySQL database connection handler
+├── states_n_districts_ins.py     # Insurance data at state/district level
+├── states_nd_districts.py        # State and district-level mapping
+└── __pycache__/                  # Compiled Python files
+
+| Layer                    | Tools & Libraries                             |
+| ------------------------ | --------------------------------------------- |
+| **Frontend / Dashboard** | Streamlit, Plotly, GeoPandas                  |
+| **Backend / Database**   | MySQL, SQL Connector (MySQL Connector/Python) |
+| **Data Handling**        | Pandas, NumPy                                 |
+| **Visualization**        | Plotly Express, Matplotlib, Folium            |
+| **Automation & ETL**     | Custom Python scripts (`DataETL.py`)          |
+
