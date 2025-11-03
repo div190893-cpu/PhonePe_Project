@@ -20,19 +20,19 @@ PhonePe is India’s leading digital payments platform. This project extracts, t
 
 🚀 Features
 
-✅ Interactive Streamlit Dashboard
-✅ Choropleth State & District Maps
-✅ Top-performing and emerging regions identification
-✅ Custom filters by year, quarter, and category
-✅ Dynamic case studies to analyze business insights
+✅ Interactive Streamlit Dashboard<br>
+✅ Choropleth State & District Maps<br>
+✅ Top-performing and emerging regions identification<br>
+✅ Custom filters by year, quarter, and category<br>
+✅ Dynamic case studies to analyze business insights<br>
 
 🗂️ Project Structure
 📦 phonepe_visualization_project
- ┣ 📜 README.md
- ┣ 📜 streamlitpage.py       ← Streamlit Dashboard App
- ┣ 📜 phonepe.ipynb          ← Data Exploration & Cleaning Notebook
- ┣ 📁 data/                  ← Processed & Raw Data Files
- ┗ 📁 assets/                ← Images, logos, etc.
+ ┣ 📜 README.md<br>
+ ┣ 📜 streamlitpage.py       ← Streamlit Dashboard App<br>
+ ┣ 📜 phonepe.ipynb          ← Data Exploration & Cleaning Notebook<br>
+ ┣ 📁 data/                  ← Processed & Raw Data Files<br>
+ ┗ 📁 assets/                ← Images, logos, etc.<br>
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
