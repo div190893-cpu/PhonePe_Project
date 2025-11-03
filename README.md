@@ -49,22 +49,21 @@ Helper functions and reusable components such as database connectors, formatting
 
 Phonepay/
 │
-├── Data/                         # Data files (raw or processed)
-├── utils/                        # Helper scripts and utility functions
-├── .streamlit/                   # Streamlit configuration files
-├── Cloning.py                    # Optional data cloning or backup logic
-├── DataETL.py                    # ETL pipeline for database population
-├── device_insights.py            # Device-level analysis
-├── file_generator.py             # File creation/export utilities
-├── Heatmap.py                    # Choropleth heatmap visualization
-├── insurance_insight.py          # Insurance analysis dashboard
-├── MainPage.py                   # Main Streamlit entry point
-├── show_transaction_analysis.py  # Transaction analytics dashboard
-├── show_transaction_dynamics.py  # Time-based transaction trends
-├── sql_connection.py             # MySQL database connection handler
+├── Data/                         # Data files (raw or processed)  
+├── utils/                        # Helper scripts and utility functions  
+├── .streamlit/                   # Streamlit configuration files  
+│
+├── Cloning.py                    # Optional data cloning or backup logic  
+├── DataETL.py                    # ETL pipeline for database population  
+├── device_insights.py            # Device-level analysis  
+├── file_generator.py             # File creation/export utilities  
+├── Heatmap.py                    # Choropleth heatmap visualization  
+├── insurance_insight.py          # Insurance analysis dashboard  
+├── MainPage.py                   # Main Streamlit entry point  
+├── show_transaction_analysis.py  # Transaction analytics dashboard  
+├── show_transaction_dynamics.py  # Time-based transaction trends  
+├── sql_connection.py             # MySQL database connection handler  
 ├── states_n_districts_ins.py     # Insurance data at state/district level
-├── states_nd_districts.py        # State and district-level mapping
-└── __pycache__/                  # Compiled Python files
 
 | Layer                    | Tools & Libraries                             |
 | ------------------------ | --------------------------------------------- |
