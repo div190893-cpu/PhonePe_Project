@@ -48,7 +48,7 @@ Helper functions and reusable components such as database connectors, formatting
 ### 🗂️ Folder Structure
 
 Phonepay/  
-│ 
+│  
 ├── Data/                         # Data files (raw or processed)  
 ├── utils/                        # Helper scripts and utility functions  
 ├── .streamlit/                   # Streamlit configuration files  
