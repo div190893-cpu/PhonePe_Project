@@ -16,57 +16,32 @@ This project visualizes transaction insights, device usage trends, and insurance
 
 ### 🗺️ Interactive geo-visualizations with maps and graphs
 
----
 
 
 ## 🚀 Features
 
 
 
-- 🔄 ETL Pipeline (DataETL.py)
+- 🔄 ETL Pipeline (DataETL.py)  
 Cleans and loads raw PhonePe data into a MySQL database.
 
-📊 Transaction Analysis (show_transaction_analysis.py)
+- 📊 Transaction Analysis (show_transaction_analysis.py)  
 Visualizes total transaction values, growth, and state-wise trends.
 
-📈 Transaction Dynamics (show_transaction_dynamics.py)
+- 📈 Transaction Dynamics (show_transaction_dynamics.py)  
 Analyzes changes over time and across transaction types.
 
-📱 Device Insights (device_insights.py)
+- 📱 Device Insights (device_insights.py)
 Examines usage patterns based on device categories.
 
-🛡️ Insurance Analytics (insurance_insight.py)
+- 🛡️ Insurance Analytics (insurance_insight.py)
 Presents coverage and claim insights by state and district.
 
-🗺️ Geo Heatmaps (Heatmap.py)
+- 🗺️ Geo Heatmaps (Heatmap.py)  
 Displays interactive choropleth maps for state-level metrics using GeoJSON.
 
-⚙️ Utilities (utils/)
+- ⚙️ Utilities (utils/)  
 Contains helper functions, reusable scripts, and connection utilities.
-ETL Pipeline (DataETL.py)
-Extracts, transforms, and loads raw data into a MySQL database.
-
-Dynamic Dashboards (MainPage.py)
-Central Streamlit interface connecting all insights in a seamless user experience.
-
-Transaction Analysis (show_transaction_analysis.py)
-Visualizes trends, transaction volume, and growth across states and years.
-
-Transaction Dynamics (show_transaction_dynamics.py)
-Displays evolving transaction patterns and types over time.
-
-Device Insights (device_insights.py)
-Analyzes transaction data across various device types.
-
-Insurance Analytics (insurance_insight.py)
-Highlights insurance trends and patterns by state and district.
-
-Geospatial Heatmap (Heatmap.py)
-Interactive choropleth map showing transaction or insurance intensity across Indian states using GeoJSON data.
-
-Utilities (utils/)
-Helper functions and reusable components such as database connectors, formatting utilities, and shared logic.
-
 ### 🗂️ Folder Structure
 
 Phonepay/  
