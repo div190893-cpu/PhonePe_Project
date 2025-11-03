@@ -21,6 +21,28 @@ This project visualizes transaction insights, device usage trends, and insurance
 
 ## 🚀 Features
 
+
+
+- 🔄 ETL Pipeline (DataETL.py)
+Cleans and loads raw PhonePe data into a MySQL database.
+
+📊 Transaction Analysis (show_transaction_analysis.py)
+Visualizes total transaction values, growth, and state-wise trends.
+
+📈 Transaction Dynamics (show_transaction_dynamics.py)
+Analyzes changes over time and across transaction types.
+
+📱 Device Insights (device_insights.py)
+Examines usage patterns based on device categories.
+
+🛡️ Insurance Analytics (insurance_insight.py)
+Presents coverage and claim insights by state and district.
+
+🗺️ Geo Heatmaps (Heatmap.py)
+Displays interactive choropleth maps for state-level metrics using GeoJSON.
+
+⚙️ Utilities (utils/)
+Contains helper functions, reusable scripts, and connection utilities.
 ETL Pipeline (DataETL.py)
 Extracts, transforms, and loads raw data into a MySQL database.
 
