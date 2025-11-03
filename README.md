@@ -3,7 +3,7 @@
 
 Analyze and visualize PhonePe Pulse data to uncover trends in transactions, user engagement, and insurance metrics — empowering data-driven decisions in the digital payments ecosystem.
 
-##🧠 Project Overview
+## 🧠 Project Overview
 
 PhonePe is India’s leading digital payments platform. This project extracts, transforms, and visualizes data from the official PhonePe Pulse GitHub Repository
  to deliver meaningful insights into:
@@ -19,7 +19,7 @@ PhonePe is India’s leading digital payments platform. This project extracts, t
 ---
 
 
-##🚀 Features
+## 🚀 Features
 
 ✅ Interactive Streamlit Dashboard<br>
 ✅ Choropleth State & District Maps<br>
